@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="260"
+   height="60"
+   viewBox="0 0 68.791809 15.875"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="121.84615"
+   inkscape:export-ydpi="121.84615"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.557211"
+     inkscape:cx="23.118254"
+     inkscape:cy="62.933026"
+     inkscape:window-width="3838"
+     inkscape:window-height="2128"
+     inkscape:window-x="3840"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch6"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#375a7f;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#375a7f;fill-opacity:1;stroke-width:0.582868"
+       id="rect1"
+       width="69.51387"
+       height="16.691366"
+       x="-0.41003981"
+       y="-0.34540945" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5554px;line-height:1.25;font-family:Acme;-inkscape-font-specification:Acme;letter-spacing:0px;word-spacing:0px;stroke-width:0.413886;fill:#222222;fill-opacity:1"
+       x="0.95554924"
+       y="13.684841"
+       id="text1-8-8"
+       transform="scale(1.081358,0.92476312)"><tspan
+         sodipodi:role="line"
+         id="tspan1-9-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Acme;-inkscape-font-specification:Acme;stroke-width:0.413886;fill:#222222;fill-opacity:1"
+         x="0.95554924"
+         y="13.684841">ra  lab.me</tspan></text>
+    <path
+       style="fill:#afbdcc;fill-opacity:1;stroke-width:0.47753"
+       d="m 18.751955,12.786315 c -0.805881,0.784925 -1.593753,1.602519 -2.487038,2.274154 -0.280922,0.04528 0.139773,-0.642567 0.165722,-0.857089 0.508899,-1.344939 1.092749,-2.655088 1.645979,-3.97934 -0.82454,-0.8718693 -1.6491,-1.7437356 -2.473659,-2.6156031 0.395332,-1.9916619 0.676742,-4.015784 1.260979,-5.9582328 0.07752,-0.3940271 0.327534,-0.68342786 0.585953,-0.95439395 1.292597,0.35259345 2.585194,0.70518855 3.877772,1.05778375 -0.824805,1.9266477 -1.649609,3.853292 -2.47443,5.7799364 0.834449,0.8823213 1.668881,1.7646442 2.50333,2.6469647 -0.868224,0.868606 -1.736432,1.737213 -2.604658,2.60582 z"
+       id="path21456-9-8" />
+  </g>
+</svg>

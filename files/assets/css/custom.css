@@ -1,0 +1,129 @@
+body {
+	  font-size: 16px;
+	  color: #dadada;
+    font-family: "Open Sans"
+}
+
+code {
+    background-color: darkslategray;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    color: #ffff;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    color: #ffff;
+}
+
+h1, .h1 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 1rem;
+}
+
+h2, .h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+h3, .h3 {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+h4, .h4 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+h5, .h5 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+h6, .h6 {
+    font-size: 1.0rem;
+    font-weight: bolder;
+}
+
+.table {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.admonition {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.metadata {
+	  font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.entry-title {
+    text-align: center;
+}
+
+#footer {
+    margin-top: 20px
+}
+
+@media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+p {
+    margin-top: 1rem;
+}
+
+p.more {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: underline;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0rem 0rem;
+}
+
+a.nav-link {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#logo {
+    max-width: 150px;
+    padding-bottom: 0px;
+}
