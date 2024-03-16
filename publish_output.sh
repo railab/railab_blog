@@ -1,1 +1,1 @@
-sudo cp -R output/* /var/www/html/nikola
+sudo cp -R output/* /var/www/html
