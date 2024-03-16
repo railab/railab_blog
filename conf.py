@@ -986,9 +986,9 @@ Powered by <a class="footer" href="https://getnikola.com" rel="nofollow">Nikola<
 <br/>
 {license}
 |
-<a href='http://www.catb.org/hacker-emblem/'><img src='/img/common/glider.png' width="32" alt='hacker emblem' /></a>
+<a href='http://www.catb.org/hacker-emblem/'><img src='/img/common/glider.png' width="32" alt='hacker emblem'></a>
 |
-<a href="https://github.com/raiden00pl/"><img alt="Github" src="/img/common/GitHub-Mark-Light-32px.png" width="32></a>
+<a href="https://github.com/raiden00pl/"><img alt="Github" src="/img/common/GitHub-Mark-Light-32px.png" width="32"></a>
 
 </center>
 """
