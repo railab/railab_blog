@@ -21,17 +21,22 @@ Install Nikola::
   $ cd nikola-env
   $ bin/python -m pip install -U pip setuptools wheel
   $ bin/python -m pip install -U "Nikola[extras]"
+  $ cd ..
 
-Activate the environment::
+Create and activate the environment::
 
-   . nikola-env/bin/activate
+   $ . nikola-env/bin/activate
+
+Build::
+
+  $ cd railab_blog
+  $ nikola build
 
 Install Isso::
 
   sudo apt-get install python3-dev sqlite3 build-essential
   sudo snap install docker
   docker pull ghcr.io/isso-comments/isso:latestXSXS
-
 
 Add these in /etc/apache2/sites-enabled/ config::
 
