@@ -1257,7 +1257,10 @@ FEED_LENGTH = 10
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-# EXTRA_HEAD_DATA = ""
+EXTRA_HEAD_DATA = """
+<script defer data-domain="railab.me" src="https://plausible.io/js/script.js"></script>
+"""
+
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
