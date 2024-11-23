@@ -6,7 +6,7 @@ This is the www.railab.me website source code.
 
 Mechatronics engineering and other fun stuff from raiden00.
 
-Powered by Nikola - a static page generator.
+Powered by `Nikola <https://getnikola.com/>`_ - a static page generator.
 
 Live on http://www.railab.me
   
