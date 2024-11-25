@@ -6,6 +6,7 @@ body {
 
 code {
     background-color: darkslategray;
+    color: #e8e4e4;
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
@@ -106,7 +107,7 @@ p.more {
 
 a {
     text-decoration: underline;
-    color: #3498db;
+    color: #48b6ff;
     text-decoration: none;
 }
 
