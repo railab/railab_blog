@@ -49,7 +49,7 @@ Hello, World!
 For this demo, we use the ``nucleo-f302r8`` board based on the STM32F302R8 chip
 with 64 Kbytes of FLASH memory and 16 Kbytes of SRAM. Ready-to-compile code and
 configuration is available in this
-`repository <https://github.com/railab/railab_nuttx_examples/>`_.
+`repository <https://github.com/railab/railab_nuttx_code/>`_.
 
 Our initial configuration is shown below, and it's devoid of
 application-specific optimizations, which we'll address later.

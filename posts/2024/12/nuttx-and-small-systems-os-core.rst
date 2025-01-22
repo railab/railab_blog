@@ -43,7 +43,7 @@ NuttX core image
 ================
 
 Ready-to-compile code and configurations are available in this
-`repository <https://github.com/railab/railab_nuttx_examples/>`_.
+`repository <https://github.com/railab/railab_nuttx_code/>`_.
 Before going any further, I highly recommend viewing the previous
 post from this series, as this post builds on the information covered earlier.
 
