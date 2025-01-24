@@ -3,13 +3,11 @@
 .. date: 2024-12-11 18:00:00 UTC
 .. tags: nuttx, small systems
 .. category: Blog
-.. description: In this post, we analyze the size of the Apache NuttX core with
-   all possible features disabled, and evaluate whether the system remains usable
-   in such a minimal state.
+.. description: Apache NuttX core image size analysis
 .. type: text
 
 .. thumbnail:: /images/posts/2024/12/nuttx-and-small-systems-os-core/1.png
-   :alt: Minimal NuttX Core Size
+   :alt: A little mice with the NuttX logo on its back again
    :align: center
 
 We continue our exploration of Apache NuttX for small embedded systems.

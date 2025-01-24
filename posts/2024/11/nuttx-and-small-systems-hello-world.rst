@@ -3,12 +3,11 @@
 .. date: 2024-11-24 12:00:00 UTC
 .. tags: nuttx, small systems
 .. category: Blog
-.. description: Let's see how low we can go with the memory usage for NuttX
-   with a simple "Hello, World!" example.
+.. description: Small "Hello, World!" example with NuttX
 .. type: text
 
 .. thumbnail:: /images/posts/2024/11/nuttx-and-small-systems-hello-world/1.png
-   :alt: Smoll NuttX
+   :alt: A little mice with the NuttX logo on its back
    :align: center
 
 In the world of small embedded systems, balancing functionality with strict
