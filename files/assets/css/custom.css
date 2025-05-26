@@ -55,6 +55,7 @@ h6, .h6 {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    font-size: 90%;
 }
 
 .admonition {
@@ -135,4 +136,8 @@ a.nav-link {
 #logo {
     max-width: 150px;
     padding-bottom: 0px;
+}
+
+pre.code {
+    font-size: 75%;
 }
