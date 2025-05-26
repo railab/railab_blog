@@ -141,3 +141,8 @@ a.nav-link {
 pre.code {
     font-size: 75%;
 }
+
+p.rubric {
+    padding-top: 2px;
+    color: #ffff;
+}
