@@ -1,34 +1,46 @@
 body {
-	  font-size: 16px;
-	  color: #dadada;
-    font-family: "Open Sans"
+    font-size: 16px;
+    color: #dadada;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+    letter-spacing: 0.01em;
 }
 
 code {
-    background-color: darkslategray;
+    background-color: rgba(47, 79, 79, 0.6);
     color: #e8e4e4;
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
-h1, .h1, h2, .h2, h3, .h3 {
-    color: #ffff;
-}
-
-h4, .h4, h5, .h5, h6, .h6 {
-    color: #ffff;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #ffffff;
 }
 
 h1, .h1 {
     font-size: 1.6rem;
     font-weight: bolder;
+    margin-bottom: 0.5rem;
 }
 
 h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 h2, .h2 {
     font-size: 1.5rem;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+h2::after, .h2::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 20px;
 }
 
 h3, .h3 {
@@ -58,25 +70,130 @@ h6, .h6 {
     font-size: 90%;
 }
 
-.admonition {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.admonition,
+.admonition.card {
+    width: auto;
+    max-width: 100%;
+    margin: 1.5rem 0;
+    padding: 0.4rem 1rem 1rem 1.25rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: none;
+    border-left: 3px solid #6fb8ff;
+    border-radius: 0 6px 6px 0;
+}
+
+.admonition.note    { border-left-color: #6fb8ff; }
+.admonition.tip,
+.admonition.hint    { border-left-color: #4ade80; }
+.admonition.warning,
+.admonition.caution { border-left-color: #f0b429; }
+.admonition.danger,
+.admonition.error   { border-left-color: #f87171; }
+
+.admonition > .admonition-title,
+.admonition > p.admonition-title {
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.admonition > p:first-child {
+    margin-top: 0;
+}
+
+.admonition > p:last-child,
+.admonition > ul:last-child {
+    margin-bottom: 0;
 }
 
 .metadata {
-	  font-size: 12px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 0;
     text-align: center;
     color: gray;
 }
 
 .entry-title {
     text-align: center;
+    margin-bottom: 0;
+}
+
+.entry-title a.u-url,
+.entry-title a.u-url:hover {
+    color: #e8e0d0;
+    text-decoration: none;
 }
 
 #footer {
-    margin-top: 20px
+    margin-top: 60px;
+    padding: 60px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 25px;
+}
+
+.footer-links a {
+    margin: 0 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    color: #82cfff;
+}
+
+.footer-socials {
+    margin-bottom: 25px;
+}
+
+.footer-socials a {
+    margin: 0 10px;
+    border-bottom: none;
+}
+
+.footer-socials img, .footer-socials .social-icon {
+    opacity: 0.5;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+}
+
+/* Only apply white filter to monochrome social icons, not the hacker emblem */
+.footer-socials img[alt="Github"],
+.footer-socials img[alt="YouTube"],
+.footer-socials img[alt="Mastodon"] {
+    filter: brightness(0) invert(1);
+}
+
+.footer-socials a:hover img, .footer-socials a:hover .social-icon {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.footer-copy a {
+    color: #888;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
+}
+
+.footer-copy a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -108,25 +225,68 @@ p.more {
 }
 
 a {
-    text-decoration: underline;
-    color: #48b6ff;
+    text-decoration: none;
+    color: #82cfff;
+    border-bottom: 1px solid rgba(130, 207, 255, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #a3dfff;
+    border-bottom-color: #a3dfff;
+    text-decoration: none;
 }
 
 a.u-url {
     text-decoration: none;
+    border-bottom: none;
 }
 
-a.nav-link {
+a.nav-link, a.navbar-brand {
     text-decoration: none;
+    border-bottom: none;
 }
 
 .navbar {
-    padding: 0rem 0rem;
+    padding: 0.2rem 0rem 0rem 0rem; /* Added 0.5rem top padding */
+    margin-bottom: 2rem;           /* Added space after navbar */
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 a.nav-link {
     font-weight: bolder;
     font-size: 18px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: 40px; /* Align with logo height */
+    position: relative;
+}
+
+a.nav-link:hover {
+    opacity: 1;
+    color: #fff !important;
+}
+
+a.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 5px;
+    left: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+a.nav-link:hover::after {
+    width: 60%;
 }
 
 .navbar-collapse {
@@ -135,14 +295,70 @@ a.nav-link {
 
 #logo {
     max-width: 150px;
-    padding-bottom: 0px;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block;
 }
 
 pre.code {
-    font-size: 75%;
+    font-size: 87%;
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    border-left: 4px solid #375a7f;
+}
+
+img {
+    border-radius: 6px;
+}
+
+.btn-kinetic {
+    font-size: 14px;
+    font-weight: 700;
+    color: #82cfff !important;
+    text-decoration: none !important;
+    display: inline-block;
+    transition: all 0.2s ease;
+    border-bottom: none !important;
+}
+
+.btn-kinetic span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.btn-kinetic:hover {
+    color: #fff !important;
+}
+
+.btn-kinetic:hover span {
+    transform: translateX(5px);
+}
+
+.btn-kinetic.previous:hover span {
+    transform: translateX(-5px);
 }
 
 p.rubric {
     padding-top: 2px;
-    color: #ffff;
+    color: #ffffff;
+}
+
+.post-navigation, .terminal-pager {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.terminal-pager {
+    justify-content: center;
+    gap: 40px;
+}
+
+p.more {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

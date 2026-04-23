@@ -940,7 +940,7 @@ INDEX_TEASERS = True
 # }}                            A literal } (U+007D RIGHT CURLY BRACKET)
 
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
-INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
+INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}" class="btn-kinetic">{read_more} <span>→</span></a></p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
@@ -966,31 +966,25 @@ LICENSE = """
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = """
-<center>
-<a class="footer" href="/pages/about/">About</a> |
-<a class="footer" href="/pages/contact/">Contact</a> |
-<a class="footer" href="/pages/copyright/">Copyright Policy</a> |
-<a class="footer" href="/archive.html">Archives</a> |
-<a class="footer" href="/tags/index.html">Tags</a> |
-<a class="footer" href="/rss.xml">RSS</a>
-<br/>
-<br/>
-
-Provided by <a class="footer" href=/pages/contact/ >raiden00 </a>
-
-<br/>
-
-Powered by <a class="footer" href="https://getnikola.com" rel="nofollow">Nikola</a>
-
-<br/>
-<br/>
-{license}
-|
-<a href='http://www.catb.org/hacker-emblem/'><img src='/img/common/glider.png' width="32" alt='hacker emblem'></a>
-|
-<a href="https://github.com/raiden00pl/"><img alt="Github" src="/img/common/GitHub-Mark-Light-32px.png" width="32"></a>
-
-</center>
+<div class="footer-links">
+    <a href="/pages/about/">About</a>
+    <a href="/pages/contact/">Contact</a>
+    <a href="/pages/copyright/">Copyright Policy</a>
+    <a href="/archive.html">Archives</a>
+    <a href="/tags/index.html">Tags</a>
+    <a href="/rss.xml">RSS</a>
+</div>
+<div class="footer-socials">
+    <a href="https://github.com/raiden00pl/"><img alt="Github" src="/img/common/GitHub-Mark-Light-32px.png" width="24"></a>
+    <a href="https://www.youtube.com/@railabme"><img alt="YouTube" src="/img/common/youtube.svg" width="24" class="social-icon"></a>
+    <a href="https://mastodon.social/@raiden00" rel="me"><img alt="Mastodon" src="/img/common/mastodon.svg" width="24" class="social-icon"></a>
+    <a href='http://www.catb.org/hacker-emblem/'><img src='/img/common/glider.png' width="24" alt='hacker emblem'></a>
+</div>
+<div class="footer-copy">
+    Provided by <a href="/pages/contact/">raiden00</a>. Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>.
+    <br/>
+    {license}
+</div>
 """
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done

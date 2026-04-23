@@ -12,7 +12,7 @@ ${template_hooks['extra_head']()}
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-expand-md static-top mb-4
+<nav class="navbar navbar-expand-md static-top
 % if theme_config.get('navbar_light'):
 navbar-light
 % else:
@@ -29,7 +29,7 @@ bg-dark
     <div class="container"><!-- This keeps the margins nice -->
         <a class="navbar-brand" href="${_link("root", None, lang)}">
         %if logo_url:
-            <img src="${logo_url}" alt="${blog_title|h}" id="logo" class="d-inline-block align-top">
+            <img src="${logo_url}" alt="${blog_title|h}" id="logo" class="d-inline-block align-top" width="150" height="35">
         %endif
 
         % if show_blog_title:

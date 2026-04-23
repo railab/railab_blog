@@ -1,0 +1,20 @@
+## -*- coding: utf-8 -*-
+<%namespace name="math" file="math_helper.tmpl"/>
+<%def name="html_pager()">
+    %if prevlink or nextlink:
+        <nav class="postindexpager">
+        <div class="terminal-pager">
+        %if prevlink:
+            <span class="nav-button previous">
+                <a href="${prevlink}" rel="prev" class="btn-kinetic"><span>←</span> ${messages("Newer posts")}</a>
+            </span>
+        %endif
+        %if nextlink:
+            <span class="nav-button next">
+                <a href="${nextlink}" rel="next" class="btn-kinetic">${messages("Older posts")} <span>→</span></a>
+            </span>
+        %endif
+        </div>
+        </nav>
+    %endif
+</%def>

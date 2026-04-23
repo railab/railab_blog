@@ -10,6 +10,7 @@
     ${parent.extra_head()}
     % if posts and (permalink == '/' or permalink == '/' + index_file):
         <link rel="prefetch" href="${posts[0].permalink()}" type="text/html">
+        <meta name="description" content="${blog_description|h}">
     % endif
     ${math.math_styles_ifposts(posts)}
 </%block>
